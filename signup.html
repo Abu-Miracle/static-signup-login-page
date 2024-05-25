@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <section>
+        <div class="mainDiv">
+            <h1>SIGN UP</h1>
+            <div class="names">
+                <input type="text" placeholder="First Name" id="firstName">
+                <input type="text" placeholder="Surname" id="surname">
+            </div>
+            
+            <div><input type="text" placeholder="Other Names" class="otherNames"></div>
+
+            <div class="details">
+                <input type="text" onfocus="(this.type = 'date')" placeholder="Date of Birth" id="dob">
+                <select name="gender" id="gender" class="classic">
+                    <option value="" disabled selected hidden>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="address">
+                <input type="email" placeholder="Email Address" id="email" class="otherNames">
+                <input type="password" placeholder="Enter Password" id="password" class="otherNames">
+                <input type="password" placeholder="Confirm Password" id="cpass" class="otherNames">
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Get Started" id="button">
+            </div>
+           
+        </div>
+    </section>
+</body>
+</html>
